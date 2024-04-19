@@ -1,6 +1,7 @@
-# artpanda
+![logo](logo/logo.jpg)
+# Art Panda
 
-A simple python script to rapidly generate a selection of images for website assets. 
+A minmalist python repo script to rapidly generate a selection of images for website assets. PRs welcome.  
 
 ## Prerequisites
 This repo makes openai calls. Sign up for their API access at https://platform.openai.com/signup, and obtain your API key.

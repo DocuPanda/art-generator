@@ -4,3 +4,4 @@
 *.jpg
 *.png
 *.webp
+!logo/logo.jpg
