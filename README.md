@@ -12,7 +12,7 @@ Install your virtual environment and dependencies:
 ```bash
 $ python3 -m venv venv
 $ source venv/bin/activate
-$ pip install -r requirements.txt
+$ pip install .
 ```
 
 Create a .env file and populate it with your openAI api key:

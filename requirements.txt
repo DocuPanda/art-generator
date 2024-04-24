@@ -1,4 +1,5 @@
+click
 openai
+pillow
 python-dotenv
 requests
-pillow
