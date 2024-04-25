@@ -18,7 +18,7 @@ $ pip install -e .
 Create a .env file and populate it with your openAI api key:
 ```bash
 touch .env
-echo "OPENAI_API_KEY=your_api_key" > .env
+echo "OPENAI_API_KEY=<YOUR_API_KEY>>" > .env
 ```
 
 
@@ -29,11 +29,11 @@ Run the following line:
 python scripts/art.py
 ```
 
-This will prompt you to enter a short subject for the image you would like to generate. For example try:
+This will start an interactive session which will prompt you to enter a short subject for the image you would like to generate. For example try:
 
 `"A goofy greedy panda stealing sacks of gold"`
 
-The script will then generate a selection of images based on your input in various styles. Run python scripts/art.py --help to see the available styles, and generate more examples of your favorite style by e.g. running
+The script will then generate a selection of images based on your input in various styles under /output. Run python scripts/art.py --help to see the available styles, and generate more examples of your favorite style by e.g. running
 
 ```bash
 python scripts/art.py --style="pop-art" --n 3 --subject "A goofy greedy panda stealing sacks of gold"
