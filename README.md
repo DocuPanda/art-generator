@@ -16,8 +16,10 @@ $ pip install -e .
 ```
 
 Create a .env file and populate it with your openAI api key:
+```bash
 touch .env
 echo "OPENAI_API_KEY=your_api_key" > .env
+```
 
 
 ## Usage
