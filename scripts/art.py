@@ -29,11 +29,10 @@ def generate_images(subject, style, n, output_path):
         res = drawer.run(subject,
                          style_name=s,
                          asset_name='svg',
-                         run_name='fast panda',
                          n=n,
                          )
         print(f'Generated images in style {s}')
-        print(str(s.absolute()) for s in res)
+        print([str(s.absolute()) for s in res])
 
 
 if __name__ == '__main__':

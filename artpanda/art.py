@@ -30,12 +30,11 @@ class ImageDrawer(object):
             subject_detailed: str,
             style_name: str = 'flat',
             asset_name: str = 'svg',
-            run_name='run1',
             n=5):
         asset_text = prebuilts.asset_types[asset_name]
         style_text = prebuilts.styles[style_name]
 
-        out_subfolder = self.output_folder / run_name / style_name
+        out_subfolder = self.output_folder  / style_name
         out_subfolder.mkdir(exist_ok=True, parents=True)
 
         generated_images = []

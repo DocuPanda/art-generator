@@ -32,6 +32,7 @@ This will prompt you to enter a short subject for the image you would like to ge
 `"A goofy greedy panda stealing sacks of gold"`
 
 The script will then generate a selection of images based on your input in various styles. Run python scripts/art.py --help to see the available styles, and generate more examples of your favorite style by e.g. running
+
 ```bash
 python scripts/art.py --style="pop-art" --n 3 --subject "A goofy greedy panda stealing sacks of gold"
 ```
