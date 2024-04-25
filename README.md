@@ -1,6 +1,6 @@
 # Art Panda
 
-A minimalistic python repo script to rapidly generate a selection of images for website assets. PRs welcome.  
+A minimalistic python repo script to rapidly generate a selection of images for website assets. Built by [docupanda.io](wwww.docupanda.io) team to scratch an itch. PRs welcome.  
 
 ## Prerequisites
 This repo makes openai calls. Sign up for their API access at https://platform.openai.com/signup, and obtain your API key.
