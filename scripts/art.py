@@ -12,7 +12,7 @@ from artpanda.art import ImageDrawer
               prompt='Enter the subject you wish to drew. Example: "a black and white panda standing in front of a canvas and painting"',
               help='The subject to draw.',
               default=None, show_default=False, required=False)
-@click.option('--style', multiple=True, default=['flat', 'modernist', 'line art', 'pop-art'],
+@click.option('--style', multiple=True, default=['flat', 'modernist', 'line-art', 'pop-art'],
               help='A list of styles to generate images in.')
 @click.option('--n', default=1, type=int,
               help='Number of images to generate. Default is 1.')

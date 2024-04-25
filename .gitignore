@@ -6,3 +6,5 @@
 *.webp
 !logo/logo.jpg
 my_package.egg-info
+scripts/output
+output
