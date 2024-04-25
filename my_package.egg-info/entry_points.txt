@@ -1,2 +1,0 @@
-[console_scripts]
-generate-images = scripts.art:generate_images
